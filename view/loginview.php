@@ -1,5 +1,5 @@
 <?php
-include_once "./head.php";
+include_once "./view/head.php";
 ?>
 <body>
 	<div class="baseLogin">
