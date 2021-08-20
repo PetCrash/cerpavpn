@@ -1,0 +1,62 @@
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+.baseLogin
+{
+	background-color: #94d192;
+	width: 300px;
+	height: 200px;
+	margin: 50px auto;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+}
+.tituloLogin
+{
+	
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 0 10px 0;
+}
+.textoLogin
+{
+	float: left;
+	width: 100px;
+	padding: 10px 0 10px 10px;
+	text-align: right;
+}
+.inputLogin
+{
+	float: left;
+	padding: 10px 0 10px 10px;
+	text-align: right;
+}
+.errorLogin
+{
+	color: red;
+	text-align: center;
+	font-size: 12px;
+}
+.botonLogin
+{
+	clear: left;
+	text-align: center;
+	/*padding-top: 10px;*/
+}
+.botonLogin input[type=submit]
+{
+	background-color: #3c8639;
+	border: none;
+	color: white;
+	padding: 10px 32px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
