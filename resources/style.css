@@ -60,3 +60,51 @@ body
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }
+.enlacedescarga
+{
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+}
+.enlacedescarga a
+{
+	background-color: #245f22;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+.enlacedescarga a:hover
+{
+	background-color: #1c4c1a;
+}
+.desconectar
+{
+	width: 100%;
+	text-align: center;
+	margin: 50px auto;
+}
+.desconectar a
+{
+	background-color: #f11c1c;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+.desconectar a:hover
+{
+	background-color: #b83636;
+}
