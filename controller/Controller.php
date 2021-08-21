@@ -14,6 +14,11 @@ class Controller {
 		
 	}
 
+	public function logout(){
+		session_destroy();
+		require("view/loginview.php");
+	}
+
 	public function index(){
 		if (!isset($_SESSION['name'])) {
 			if (isset($_POST['usuario'])) {
@@ -46,11 +51,7 @@ class Controller {
 			require("view/descargarview.php");
 		}
 	}
+
+	
 }
-/*$db = new Database();
-if (!isset($_SESSION['name'])) {
-	header("Location: ./login.php");
-	die();
-} else {
-}*/
 ?>

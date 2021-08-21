@@ -5,7 +5,13 @@ require("./controller/Controller.php");
 //Instancio el controlador
 $controller = new Controller;
 
-//Ejecuto el método
-$controller->index();
+if (isset($_GET['m'])) {
+	$controller->{$_GET['m']}();
+}else {
+	//Ejecuto el método
+	$controller->index();
+}
+
+
 
 ?>
